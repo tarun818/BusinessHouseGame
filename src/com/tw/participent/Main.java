@@ -80,7 +80,8 @@ public class Main {
 				}
 			}
 			printPayerFinalStatus(playersList);
-			if(i==3)
+			//Back to first player turn
+			if(i==playersList.size())
 			{
 				i=0;
 			}
